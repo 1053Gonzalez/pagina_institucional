@@ -1,4 +1,0 @@
-class matriculas {
-    no 
-}
- 

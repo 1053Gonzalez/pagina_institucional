@@ -54,7 +54,7 @@ nav{
 a :hover{
     font-size: 1.6rem;
 }
-img{
+#logo{
     width: 150px;
     height: 150px;
     display: inline-flex;

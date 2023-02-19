@@ -1,29 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    border: solid 0px #000;
+}
+.header{
+    width: 1000px;
+    margin: 30px auto;
 }
 body {
     /*background-image: url(sources/img/colegios_1.jpg);*/
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: rgb(212, 240, 251);
-    backdrop-filter: blur(4px)
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1 {
     text-align: center;
-    font-family: sans-serif;
     font-size: 48px;
+    color: #ffffff;
 }
 
 p {
-    text-align: center;
-    font-family: sans-serif;
+    text-align: left;
     font-size: 12px;
-    color: black;
+    color: rgb(0, 0, 0);
 }
+
 .cuerpo {
     color: rgb(0, 0, 0);
 }
@@ -35,26 +43,56 @@ p {
     margin-right: auto;
 
 }
+
 .navegacion {
     text-align: right;
     font-size: 10px;
-    
+
 }
-nav{
+
+nav {
+    /*margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;*/
     background-color: #c6c6c5;
     position: relative;
-    height: 110px;
-    font-size: 1.5rem;
+    height: 100px;
+    font-size: 20px;
     justify-content: center;
     display: flex;
     align-items: center;
     border-radius: 1px;
     box-shadow: 0 2px 1px black;
 }
-a :hover{
-    font-size: 1.6rem;
+
+body nav a {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    color: black;
+    padding: 8px 10px;
+    margin: 0 5px;
+    text-decoration: none;
 }
-#logo{
+
+a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #20b2aa;
+    transition: width 0.5s;
+}
+
+a:hover::before {
+    width: 100%;
+}
+
+#logo {
     width: 150px;
     height: 150px;
     display: inline-flex;
@@ -63,18 +101,278 @@ a :hover{
     left: -100px;
     align-items: center;
 }
-nav a{
-    color: black;
-    margin: 0 1rem;
+
+/*****Imagen de fondo*****/
+.bg-photo {
+    background: #fff url(sources/img/colegios_1.jpg) no-repeat top left fixed;
+    background-size: cover;
+}
+
+/****estilos para el footer********/
+/***Relaizado por: Jose Gonzalez**/
+section {
+    width: 100%;
+    display: inline-block;
+    background: #333;
+    height: 50vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#footer-total {
+    bottom: 0;
+    margin-top: auto;
+
+}
+
+.footer-general {
+    background: #c6c6c5;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+
+.footer-general .footer-izq,
+.footer-general .footer-med,
+.footer-general .footer-der {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer Izquierda */
+
+.footer-general .footer-izq {
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-general h3 {
+    color: #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-general h3 span {
+    color: lightseagreen;
+}
+
+/* Footer links */
+
+.footer-general .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-general .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
     text-decoration: none;
+    color: inherit;
+}
+
+.footer-general .footer-nombre-inst {
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Medio */
+
+.footer-general .footer-med {
+    width: 25%;
+}
+
+.footer-general .footer-med i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-general .footer-med i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-general .footer-med p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-general .footer-med p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-med p a {
+    color: lightseagreen;
+    text-decoration: none;
+    ;
+}
+
+.footer-general .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-general .footer-links .link-1:before {
+    content: none;
+}
+
+/* Footer derecha */
+
+.footer-general .footer-der {
+    width: 30%;
+}
+
+.footer-general .footer-lema-inst {
+    line-height: 20px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-lema-inst span {
+    display: block;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-general .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-general .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+/*
+#logo-github{
+    background-image: url(sources/img/github.png);
+}
+*/
+/*stilos para formularios by Edison*/
+.header ul{
+   list-style: none; 
+}
+.menu > li{
+    position: relative; 
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #fff;
+    transition: all 0.3s;
+}
+.submenu{
+    position: absolute;
+    display: none;
+    font-size: 18px;
+    
+}
+.submenu li a {
+    display: block;
     padding: 10px;
 }
-#linea{
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    background-color: crimson;
-    bottom: -0.5rem;
-    transition: 0.5s ease;
-    top: 110px;
+.menu li:hover .submenu{
+    display: block;
 }
+.container{
+    /* box-sizing: border-box; */
+        /* border: 1px solid rgb(119, 109, 109); */
+    max-width:60%;
+    margin: auto;
+}
+.form{
+    background-image: url(/sources/img/form.jpg);
+    box-sizing: border-box;
+    max-width:60%;
+    color: rgb(226, 234, 235);
+    margin: auto;
+    border-radius: 10px;
+    font-size: 13px;
+    background-color: rgb(207, 203, 203);
+    border: 1px solid rgb(119, 109, 109);
+    max-width: 400px;
+    padding: 50px 30px;
+    margin: auto;
+    margin-top: 10px;
+}
+.form-titulo{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.form-input{
+    margin-bottom: 20px;
+}
+.form-input label{
+    display: block;
+    margin-top: 5px;
+}
+.form-input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid rgb(27, 45, 46);
+}
+.form-check input{
+    cursor: pointer;
+}
+.form-check label{
+    color: black;
+}
+.form-enviar input{
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+/*fin modificacion stilos formularios"*/

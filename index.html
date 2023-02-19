@@ -1,40 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
-<link rel="stylesheet" href="index.css">
-<script src="index.js"></script>
+  <link rel="stylesheet" href="index.css" />
+  <script src="index.js"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Pagina Institucional</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Institucíon educativa Jose Fernando Causado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body class="bg-photo">
     <nav class="header">
-        <img src="sources/img/logo.png" id="logo">
-        <div id="linea"></div>
-        <a href="#">Inicio</a>
-        <a href="docentes.html">Docentes</a>
-        <a href="notas.html">Notas</a>
-        <a href="myv.html">Mision y Vision</a>
-        <a href="pqrs.html">PQRS</a>
-        </nav>
-        <div class="cuerpo">
-        <h1>Institución educativa E.J.E</h1>
-        <p>Esta es estructura basica para nuestro proyecto web</p>
-    </div>
-    <div class="img-inst">
-        <img src="sources/img/colegios_1.jpg" alt="">
+      <img src="sources/img/logo.png" id="logo" />
+      <div id="linea"></div>
+      <ul class="menu">
+        <li><a href="/index.html">Inicio</a></li>
+        <li>
+          <a href="">Matrículas</a>
+          <ul class="submenu">
+            <li><a href="sources/forms/formPrescolar.html">Preescolar</a></li>
+            <li><a href="sources/forms/formPrimaria.html">Primaria</a></li>
+            <li><a href="sources/forms/formSecundaria.html">Secundaria</a></li>
+          </ul>
+        </li>
+        <li><a href="notas.html">Notas</a></li>
+        <li><a href="docentes.html">Docentes</a></li>
+        <li><a href="myv.html">Misión y Visión</a></li>
+        <li><a href="pqrs.html">PQRS</a></li>
+      </ul>
+    </nav>
+    <div class="cuerpo">
+      <h1>Institución educativa Jose Fernando Causado</h1>
+      <!-- <p>Esta es estructura basica para nuestro proyecto web</p> -->
     </div>
 
-    <div>
-        <footer>
-            <p>Author: E.J.E</p>
-            <p><a href="mailto:e.j.e@example.com">mailto: e.j.e@example.com</a></p>
+
+    </div>
+    <div id="footer-total">
+        <footer class="footer-general">
+            <div class="footer-izq">
+                <h3>Institución<span> Jose Fernando Causado</span></h3>
+                <p class="footer-links">
+                    <a href="#" class="link-1">Home</a>
+                    <a href="#">Acerca de nosotros</a>
+                    <a href="#">Preguntas </a>
+                    <a href="#">Contacto</a>
+                </p>
+                <p class="footer-nombre-inst">Institucion educativa Jose Fernando Causado © 2023</p>
+            </div>
+            <div class="footer-med">
+                <div>
+                    <i class="fa fa-map-marker"><img src="sources/img/map.png" width="35"></i>
+                    <p><span>Calle 50. Parque Berrio </span> Medellin, Colombia</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"><img src="sources/img/phone.png" width="35"></i>
+                    <p>+57 319-333-33-33</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"><img src="sources/img/mail.png" width="35"></i>
+                    <p><a href="mailto:correo@company.com">josefernandocausado@medellin.edu.co</a></p>
+                </div>
+            </div>
+            <div class="footer-der">
+                <p class="footer-lema-inst">
+                    <span>Lema institucional</span><br>
+                    "Donde la educación se encuentra con la innovación: preparando a los estudiantes para un futuro
+                    brillante"
+                </p>
+                <div class="footer-icons">
+                    <a href="#"><i id="logo-facebook"></i><img src="sources/img/facebook.png" width="35"></a>
+                    <a href="#"><i class="fa fa-twitter"></i><img src="sources/img/twitter.png" width="35"></a>
+                    <a href="#"><i class="fa fa-linkedin"></i><img src="sources/img/linkedin.png" width="35"></a>
+                    <a href="#"><i id="logo-github" ></i><img src="sources/img/github.png" width="35"></a>
+                </div>
+            </div>
         </footer>
     </div>
-</body>
-
+  </body>
 </html>

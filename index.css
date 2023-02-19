@@ -94,5 +94,189 @@ a:hover::before {
     align-items: center;
 }
 
+/*****Imagen de fondo*****/
+.bg-photo {
+    background: #fff url(sources/img/colegios_1.jpg) no-repeat top left fixed;
+    background-size: cover;
+}
 
+/****estilos para el footer********/
+/***Relaizado por: Jose Gonzalez**/
+section {
+    width: 100%;
+    display: inline-block;
+    background: #333;
+    height: 50vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+}
 
+#footer-total {
+    bottom: 0;
+    margin-top: auto;
+
+}
+
+.footer-general {
+    background: #c6c6c5;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+
+.footer-general .footer-izq,
+.footer-general .footer-med,
+.footer-general .footer-der {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer Izquierda */
+
+.footer-general .footer-izq {
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-general h3 {
+    color: #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-general h3 span {
+    color: lightseagreen;
+}
+
+/* Footer links */
+
+.footer-general .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-general .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-general .footer-nombre-inst {
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Medio */
+
+.footer-general .footer-med {
+    width: 25%;
+}
+
+.footer-general .footer-med i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-general .footer-med i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-general .footer-med p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-general .footer-med p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-med p a {
+    color: lightseagreen;
+    text-decoration: none;
+    ;
+}
+
+.footer-general .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-general .footer-links .link-1:before {
+    content: none;
+}
+
+/* Footer derecha */
+
+.footer-general .footer-der {
+    width: 30%;
+}
+
+.footer-general .footer-lema-inst {
+    line-height: 20px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-lema-inst span {
+    display: block;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-general .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-general .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+/*
+#logo-github{
+    background-image: url(sources/img/github.png);
+}
+*/

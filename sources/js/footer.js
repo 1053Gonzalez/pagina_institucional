@@ -36,5 +36,5 @@ footer.innerHTML =
             '<a href="#"><i class="fa fa-linkedin"></i><img src="/sources/img/linkedin.png" width="35"></a>' +
             '<a href="#"><i id="logo-github"></i><img src="/sources/img/github.png" width="35"></a>' +
         '</div>' +
-    '</div>';
+    '</div>'
 document.body.appendChild(footer);

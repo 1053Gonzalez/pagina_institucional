@@ -5,7 +5,10 @@
     font-family: 'Roboto', sans-serif;
     border: solid 0px #000;
 }
-
+.header{
+    width: 1000px;
+    margin: 30px auto;
+}
 body {
     /*background-image: url(sources/img/colegios_1.jpg);*/
     background-size: 100%;
@@ -48,10 +51,15 @@ p {
 }
 
 nav {
+    /*margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;*/
     background-color: #c6c6c5;
     position: relative;
-    height: 110px;
-    font-size: 1.5rem;
+    height: 100px;
+    font-size: 20px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -280,3 +288,91 @@ section {
     background-image: url(sources/img/github.png);
 }
 */
+/*stilos para formularios by Edison*/
+.header ul{
+   list-style: none; 
+}
+.menu > li{
+    position: relative; 
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #fff;
+    transition: all 0.3s;
+}
+.submenu{
+    position: absolute;
+    display: none;
+    font-size: 18px;
+    
+}
+.submenu li a {
+    display: block;
+    padding: 10px;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.container{
+    /* box-sizing: border-box; */
+        /* border: 1px solid rgb(119, 109, 109); */
+    max-width:60%;
+    margin: auto;
+}
+.form{
+    background-image: url(/sources/img/form.jpg);
+    box-sizing: border-box;
+    max-width:60%;
+    color: rgb(226, 234, 235);
+    margin: auto;
+    border-radius: 10px;
+    font-size: 13px;
+    background-color: rgb(207, 203, 203);
+    border: 1px solid rgb(119, 109, 109);
+    max-width: 400px;
+    padding: 50px 30px;
+    margin: auto;
+    margin-top: 10px;
+}
+.form-titulo{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.form-input{
+    margin-bottom: 20px;
+}
+.form-input label{
+    display: block;
+    margin-top: 5px;
+}
+.form-input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid rgb(27, 45, 46);
+}
+.form-check input{
+    cursor: pointer;
+}
+.form-check label{
+    color: black;
+}
+.form-enviar input{
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+/*fin modificacion stilos formularios"*/

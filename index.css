@@ -5,7 +5,10 @@
     font-family: 'Roboto', sans-serif;
     border: solid 0px #000;
 }
-
+.header{
+    width: 1000px;
+    margin: 30px auto;
+}
 body {
     /*background-image: url(sources/img/colegios_1.jpg);*/
     background-size: 100%;
@@ -266,10 +269,25 @@ section {
 .footer-general .footer-icons {
     margin-top: 25px;
 }
-.header{
-    width: 1000px;
-    margin: 30px auto;
+
+.footer-general .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
 }
+/*
+#logo-github{
+    background-image: url(sources/img/github.png);
+}
+*/
 /*stilos para formularios by Edison*/
 .header ul{
    list-style: none; 
@@ -358,22 +376,3 @@ section {
     cursor: pointer;
 }
 /*fin modificacion stilos formularios"*/
-
-.footer-general .footer-icons a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    border-radius: 2px;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 35px;
-    margin-right: 3px;
-    margin-bottom: 5px;
-}
-/*
-#logo-github{
-    background-image: url(sources/img/github.png);
-}
-*/

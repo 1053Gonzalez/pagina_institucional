@@ -10,10 +10,10 @@
     margin: 30px auto;
 }
 body {
-    /*background-image: url(sources/img/colegios_1.jpg);*/
+    background-image: url(sources/img/colegios_1.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: rgb(212, 240, 251);
+    /*background-color: rgb(212, 240, 251);*/
     backdrop-filter: blur(4px);
     display: flex;
     flex-direction: column;
@@ -135,6 +135,7 @@ section {
     text-align: left;
     font: bold 16px sans-serif;
     padding: 55px 50px;
+    margin: 4px;
 }
 
 .footer-general .footer-izq,
@@ -314,6 +315,7 @@ section {
 .submenu li a {
     display: block;
     padding: 10px;
+    background-color: #c6c6c6;
 }
 .menu li:hover .submenu{
     display: block;

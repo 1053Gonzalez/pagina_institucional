@@ -5,10 +5,10 @@
     font-family: 'Roboto', sans-serif;
     border: solid 0px #000;
 }
-.header{
+/*.header{
     width: 1000px;
     margin: 30px auto;
-}
+}*/
 body {
     background-image: url(sources/img/colegios_1.jpg);
     background-size: 100%;
@@ -135,7 +135,7 @@ section {
     text-align: left;
     font: bold 16px sans-serif;
     padding: 55px 50px;
-    margin: 4px;
+    margin-top: 4px;
 }
 
 .footer-general .footer-izq,

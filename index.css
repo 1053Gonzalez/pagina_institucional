@@ -327,7 +327,7 @@ section {
     margin: auto;
 }
 .form{
-    background-image: url(/sources/img/form.jpg);
+    background: url(/sources/img/form.jpg) no-repeat top left fixed;
     box-sizing: border-box;
     max-width:60%;
     color: rgb(226, 234, 235);
@@ -340,6 +340,7 @@ section {
     padding: 50px 30px;
     margin: auto;
     margin-top: 10px;
+    backdrop-filter: blur(4px);
 }
 .form-titulo{
     font-weight: bold;

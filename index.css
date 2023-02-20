@@ -5,15 +5,15 @@
     font-family: 'Roboto', sans-serif;
     border: solid 0px #000;
 }
-.header{
+/*.header{
     width: 1000px;
     margin: 30px auto;
-}
+}*/
 body {
-    /*background-image: url(sources/img/colegios_1.jpg);*/
+    background-image: url(sources/img/colegios_1.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: rgb(212, 240, 251);
+    /*background-color: rgb(212, 240, 251);*/
     backdrop-filter: blur(4px);
     display: flex;
     flex-direction: column;
@@ -58,7 +58,7 @@ nav {
     box-sizing: border-box;*/
     background-color: #c6c6c5;
     position: relative;
-    height: 100px;
+    height: 120px;
     font-size: 20px;
     justify-content: center;
     display: flex;
@@ -135,6 +135,7 @@ section {
     text-align: left;
     font: bold 16px sans-serif;
     padding: 55px 50px;
+    margin-top: 4px;
 }
 
 .footer-general .footer-izq,
@@ -314,6 +315,7 @@ section {
 .submenu li a {
     display: block;
     padding: 10px;
+    background-color: #c6c6c6;
 }
 .menu li:hover .submenu{
     display: block;
@@ -325,7 +327,7 @@ section {
     margin: auto;
 }
 .form{
-    background-image: url(/sources/img/form.jpg);
+    background: url(/sources/img/form.jpg) no-repeat top left fixed;
     box-sizing: border-box;
     max-width:60%;
     color: rgb(226, 234, 235);
@@ -338,6 +340,7 @@ section {
     padding: 50px 30px;
     margin: auto;
     margin-top: 10px;
+    backdrop-filter: blur(4px);
 }
 .form-titulo{
     font-weight: bold;

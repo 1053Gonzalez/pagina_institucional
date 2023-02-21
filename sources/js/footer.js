@@ -4,10 +4,10 @@ footer.innerHTML =
     '<div class="footer-izq">' +
         '<h3>Institución<span> Jose Fernando Causado</span></h3>' +
         '<p class="footer-links">' +
-            '<a href="#" class="link-1">Home</a>' +
-            '<a href="#">Acerca de nosotros</a>' +
-            '<a href="#">Preguntas </a>' +
-            '<a href="#">Contacto</a>' +
+            '<a href="#" class="link-1">Home |</a>' +
+            '<a href="#"> Acerca de nosotros |</a>' +
+            '<a href="#"> Preguntas |</a>' +
+            '<a href="#"> Contacto</a>' +
         '</p>' +
         '<p class="footer-nombre-inst">Institucion educativa Jose Fernando Causado © 2023</p>' +
     '</div>' +
@@ -22,7 +22,7 @@ footer.innerHTML =
         '</div>' +
         '<div>' +
             '<i class="fa fa-envelope"><img src="/sources/img/mail.png" width="35"></i>' +
-            '<p><a href="mailto:correo@company.com">josefernandocausado@medellin.edu.co</a></p>' +
+            '<p><a href="mailto:correo@company.com">josefc@jfc.edu.co</a></p>' +
         '</div>' +
     '</div>' +
     '<div class="footer-der">' +

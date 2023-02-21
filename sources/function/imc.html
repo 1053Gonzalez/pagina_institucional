@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="/sources/styles/imc.css" />
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Calculadora IMC</title>
+</head>
+
+<body class="body-imc">
+    <div class="calc-imc">
+        <h1 class="titulo">Calculadora de IMC</h1>
+        <form>
+            <p class="p-imc">Digite su peso en kilogramos</p>
+            <div class=input>
+                <input id="peso" type="number" />
+                <span>Kg</span>
+            </div>
+            <div class=input>
+                <p class="p-imc">Digite su altura en centimetos</p>
+                <input id="altura" type="number" />
+                <span>cm</span>
+            </div>
+            <div class=input>
+                <input id="btnCalcular" class="boton-calcular" type="button" value="Calcular" />
+            </div>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <script src="/sources/js/imc.js"></script>
+</body>
+
+</html>

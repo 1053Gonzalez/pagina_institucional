@@ -6,4 +6,3 @@ var getData = function () {
 
         console.log(nombre+" "+correo+" "+telefono+" "+mensaje)
     }
-    

@@ -5,6 +5,7 @@
     font-family: 'Roboto', sans-serif;
     border: solid 0px #000;
 }
+
 /*.header{
     width: 1000px;
     margin: 30px auto;
@@ -284,52 +285,61 @@ section {
     margin-right: 3px;
     margin-bottom: 5px;
 }
+
 /*
 #logo-github{
     background-image: url(sources/img/github.png);
 }
 */
 /*stilos para formularios by Edison*/
-.header ul{
-   list-style: none; 
+.header ul {
+    list-style: none;
 }
-.menu > li{
-    position: relative; 
+
+.menu>li {
+    position: relative;
     display: inline-block;
 }
-.menu > li > a{
+
+.menu>li>a {
     display: block;
     padding: 5px 8px;
     text-decoration: none;
 }
-.menu li a:hover{
+
+.menu li a:hover {
     color: #fff;
     transition: all 0.3s;
 }
-.submenu{
+
+.submenu {
     position: absolute;
     display: none;
     font-size: 18px;
-    
+
 }
+
 .submenu li a {
     display: block;
     padding: 10px;
     background-color: #c6c6c6;
 }
-.menu li:hover .submenu{
+
+.menu li:hover .submenu {
     display: block;
 }
-.container{
+
+.container {
     /* box-sizing: border-box; */
-        /* border: 1px solid rgb(119, 109, 109); */
-    max-width:60%;
+    /* border: 1px solid rgb(119, 109, 109); */
+    max-width: 60%;
     margin: auto;
 }
-.form{
+
+.form {
     background: url(/sources/img/form.jpg) no-repeat top left fixed;
     box-sizing: border-box;
-    max-width:60%;
+    max-width: 60%;
     color: rgb(226, 234, 235);
     margin: auto;
     border-radius: 10px;
@@ -342,34 +352,41 @@ section {
     margin-top: 10px;
     backdrop-filter: blur(4px);
 }
-.form-titulo{
+
+.form-titulo {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
     margin: 0;
     margin-bottom: 20px;
 }
-.form-input{
+
+.form-input {
     margin-bottom: 20px;
 }
-.form-input label{
+
+.form-input label {
     display: block;
     margin-top: 5px;
 }
-.form-input input{
+
+.form-input input {
     width: 100%;
     border: none;
     outline: none;
     background: none;
     border-bottom: 1px solid rgb(27, 45, 46);
 }
-.form-check input{
+
+.form-check input {
     cursor: pointer;
 }
-.form-check label{
+
+.form-check label {
     color: black;
 }
-.form-enviar input{
+
+.form-enviar input {
     background: black;
     color: white;
     padding: 10px 20px;
@@ -378,6 +395,7 @@ section {
     margin: auto;
     cursor: pointer;
 }
+
 /*fin modificacion stilos formularios"*/
 
 /*incia los estilos de docentes.html*/
@@ -396,6 +414,7 @@ section {
     margin: 0;
     font-size: 80px;
 }
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -483,6 +502,7 @@ section {
     font-size: 16px;
     color: #666;
 }
+
 /*Finaliza estilos docentes.html*/
 /*******************************/
 /*estilos forulario pqrs by Edison*/
@@ -495,15 +515,18 @@ section {
     margin-top: 20px;
     border-radius: 10px;
 }
-h2{
+
+h2 {
     color: white;
     text-align: center;
     margin: 0;
     font-size: 35px;
     margin-bottom: 20px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
-input, textarea{
+
+input,
+textarea {
     width: 100%;
     margin-bottom: 20px;
     padding: 7px;
@@ -513,23 +536,37 @@ input, textarea{
     border-radius: 5px;
     border: none;
 }
-textarea{
+
+textarea {
     min-height: 100px;
     max-height: 200px;
     max-width: 100%;
 }
-#boton_pqrs{
+
+#boton_pqrs {
     background: rgb(167, 159, 159);
     color: white;
     padding: 15px;
     font-family: monospace;
 }
-#boton_pqrs:hover{
+
+#boton_pqrs:hover {
     cursor: pointer;
 }
-@media(max-width: 480px){
-    .form_pqrs{
+
+@media(max-width: 480px) {
+    .form_pqrs {
         width: 100%;
     }
 }
+
 /* fin estilos forulario pqrs*/
+
+/***/
+.footergov {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 35px;
+    background: #c6c6c5;
+}

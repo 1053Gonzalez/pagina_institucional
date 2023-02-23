@@ -329,10 +329,10 @@ section {
     display: block;
 }
 
-.container {
+.containerf {
     /* box-sizing: border-box; */
     /* border: 1px solid rgb(119, 109, 109); */
-    max-width: 60%;
+    max-width: 90%;
     margin: auto;
 }
 
@@ -401,7 +401,7 @@ section {
 /*incia los estilos de docentes.html*/
 /* Agregado por Esteban Causado*/
 .banner-docentes {
-    background-color: #3481b8;
+    background-color: rgba(52, 129, 184, 0.5);
     color: #fff;
     display: flex;
     justify-content: center;

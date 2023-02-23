@@ -562,7 +562,7 @@ textarea {
 
 /* fin estilos forulario pqrs*/
 
-/***/
+/**inicia para el segundo footer con las paginas.gov*/
 .footergov {
     display: flex;
     justify-content: center;
@@ -571,3 +571,31 @@ textarea {
     background: #c6c6c5;
     background-color: rgba(255, 255, 255, 0.5);
 }
+
+/**finaliza para el segundo footer con las paginas.gov*/
+
+/**inicia estilos para mision y vision**/
+.mision,
+.vision {
+  background-color: rgba(198, 198, 197, 0.5);
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.h1-myv {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.h1-myv + p {
+  font-size: 28px;
+  font-weight: normal;
+  color: c6c6c5;
+  text-shadow: 1px 1px 1px rgba(98, 198, 197, 0.5);
+}
+/*finaliza estilos para mision y vision*/

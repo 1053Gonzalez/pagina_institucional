@@ -484,3 +484,52 @@ section {
     color: #666;
 }
 /*Finaliza estilos docentes.html*/
+/*******************************/
+/*estilos forulario pqrs by Edison*/
+.form_pqrs {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: monospace;
+    border-radius: 5px;
+    border: none;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton_pqrs{
+    background: rgb(167, 159, 159);
+    color: white;
+    padding: 15px;
+    font-family: monospace;
+}
+#boton_pqrs:hover{
+    cursor: pointer;
+}
+@media(max-width: 480px){
+    .form_pqrs{
+        width: 100%;
+    }
+}
+/* fin estilos forulario pqrs*/

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
   <link rel="stylesheet" href="index.css" />
-    <script src="index.js"></script>
+    <script src="/sources/js/pqrs.js"></script>
 
   <head>
     <meta charset="UTF-8" />
@@ -20,11 +20,11 @@
     <!-- codigo formulario pqrs -->
     <form action="" class="form_pqrs">
       <h2>CONTACTO</h2>
-      <input type="text" name="Nombre" placeholder="Nombre">
-      <input type="text" name="Correo" placeholder="Correo">
-      <input type="text" name="Teléfono" placeholder="Teléfono">
-      <textarea name="Mensaje" placeholder="Escriba aquí su mensaje"></textarea>
-      <input type="button" value="ENVIAR" id="boton_pqrs">
+      <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" required> 
+      <input type="email" name="Correo" id="Correo" placeholder="Correo" required>
+      <input type="text" name="Telefono" id="Telefono" placeholder="Teléfono" required>
+      <textarea name="Mensaje" id="Mensaje" placeholder="Escriba aquí su mensaje" required></textarea>
+      <input type="submit" onclick="getData()" value="ENVIAR" id="boton_pqrs">
     </form>
     <!-- fin codigo formulario pqrs -->
     <div id="footer-total">

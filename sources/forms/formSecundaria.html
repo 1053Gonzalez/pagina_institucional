@@ -6,6 +6,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Matrículas Primaria</title>
+    <link rel="icon" href="/sources/img/icon.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,25 +16,7 @@
   </head>
 
   <body class="bg-photo">
-    <nav class="header">
-        <img src="/sources/img/logo.png" id="logo" />
-      <div id="linea"></div>
-      <ul class="menu">
-        <li><a href="/index.html">Inicio</a></li>
-        <li>
-          <a href="/index.html">Matrículas</a>
-          <ul class="submenu">
-            <li><a href="formPrescolar.html">Preescolar</a></li>
-            <li><a href="formPrimaria.html">Primaria</a></li>
-            <li><a href="formSecundaria.html">Secundaria</a></li>
-          </ul>
-        </li>
-        <li><a href="/notas.html">Notas</a></li>
-        <li><a href="/docentes.html">Docentes</a></li>
-        <li><a href="/myv.html">Misión y Visión</a></li>
-        <li><a href="/pqrs.html">PQRS</a></li>
-      </ul>
-    </nav>
+    <script src="/sources/js/header.js"></script>
     <div class="cuerpo">
       <h1>Matrículas Primaria</h1>
       <!-- <p>Esta es estructura basica para nuestro proyecto web</p> -->
@@ -41,7 +24,7 @@
     <div class="img-inst">
       <img src="sources/img/colegios_1.jpg" alt="" />
     </div>
-    <div class="container">
+    <div class="containerf">
         <form action="" class="form">
             <p class="form-titulo">Matricúlate</p>
             <div class="form-input">
@@ -89,7 +72,12 @@
             </div>
         </form>
     </div>
-    <div  id="footer-total">
+    <div id="footer-total">
+      <div id="divgov">
+        <footer class="footergov">
+          <script src="/sources/js/footergov.js"></script>
+        </footer>
+      </div>
       <footer class="footer-total">
         <script src="/sources/js/footer.js"></script>
       </footer>

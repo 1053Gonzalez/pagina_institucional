@@ -4,6 +4,5 @@ var getData = function () {
     var telefono = document.getElementById("Telefono").value;
     var mensaje = document.getElementById("Mensaje").value;
 
-        console.log(nombre+" "+correo+" "+telefono+" "+mensaje)
+        console.log(nombre+";"+correo+";"+telefono+";"+mensaje)
     }
-    

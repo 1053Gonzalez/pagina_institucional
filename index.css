@@ -93,8 +93,8 @@ a:hover::before {
 }
 
 #logo {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     display: inline-flex;
     position: relative;
     justify-content: left;
@@ -641,3 +641,53 @@ textarea {
   text-shadow: 1px 1px 1px rgba(98, 198, 197, 0.5);
 }
 /*finaliza estilos para mision y vision*/
+/***************************************/
+/*estilos forulario notas by Edison*/
+.form_notas {
+    width: 300px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+h5{
+    color: white;
+    text-align: left;
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input, select{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: monospace;
+    border-radius: 5px;
+    border: none;
+}
+
+#nota {
+    background: rgb(167, 159, 159);
+    color: white;
+    padding: 15px;
+    font-family: monospace;
+}
+
+#nota:hover {
+    cursor: pointer;
+}
+
+@media(max-width: 480px) {
+    .form_notas {
+        width: 100%;
+    }
+}
+
+/* fin estilos forulario notas*/

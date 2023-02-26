@@ -802,3 +802,14 @@ h5 {
   }
 
 /**finaliza estilos para imagenes de pagina inicial**/
+
+#reloj {
+    font-size: 14px;
+    text-align: center;
+    float: right;
+    width: 100px;
+    margin: 10px;
+    margin-right: 21px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+  }

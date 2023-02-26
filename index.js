@@ -53,3 +53,19 @@ function plusSlides(n) {
 }
 
 /**finaliza el script para imagenes index */
+
+/**inicia script para el reloj */
+
+function mostrarHora() {
+	const fecha = new Date();
+	let hora = fecha.getHours();
+	let minutos = fecha.getMinutes();
+	let segundos = fecha.getSeconds();
+	hora = hora < 10 ? "0" + hora : hora;
+	minutos = minutos < 10 ? "0" + minutos : minutos;
+	segundos = segundos < 10 ? "0" + segundos : segundos;
+	const horaActual = hora + ":" + minutos + ":" + segundos;
+	document.getElementById("reloj").innerHTML = horaActual;
+  }
+  setInterval(mostrarHora, 1000);
+  /**finaliza script para el reloj */
